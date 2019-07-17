@@ -1,0 +1,222 @@
+.providersContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0px auto 30px;
+  max-width: 956px;
+}
+.contentContainer {
+  width: 100%;
+  flex: 1;
+  margin-top: 0;
+
+  display: flex;
+  flex-direction: column;
+}
+.contentContainerMobile .countyContainer {
+  margin: 0px 30px 35px;
+}
+.header {
+  margin: 40px 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+
+  color: #454452;
+}
+.header span {
+  color: #31E495;
+}
+.contentContainerMobile .header {
+  margin: 23px -15px 33px;
+  text-align: center;
+}
+.contentContainerMobile .header span {
+  display: block;
+}
+.cardContainer {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  height: 157px;
+  border: 1px solid #31E495;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.cardContainerMobile {
+  margin: 0 auto 30px;
+  flex-direction: column;
+  height: auto;
+  width: 300px;
+}
+.cardContainer .providerHeader {
+  position: relative;
+  margin-right: 73px;
+  background-color: #31E495;
+  flex: 0 0 113px;
+  height: 100%;
+}
+.cardContainerMobile .providerHeader {
+  margin-right: 0;
+  background-color: #31E495;
+  flex: 0 0 59px;
+  width: 100%;
+}
+.cardContainer .providerHeader svg:first-child {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+.cardContainerMobile .providerHeader svg:first-child {
+  top: 22px;
+  left: 18px;
+}
+.cardContainer .providerHeader svg:nth-child(2) {
+  transform: rotate(-90deg);
+
+  position: absolute;
+  top: 20px;
+  right: -28px;
+
+  height: 117px;
+  width: 115px;
+}
+.cardContainerMobile .providerHeader svg:nth-child(2) {
+  transform: rotate(0);
+
+  bottom: 0;
+  top: initial;
+  left: 105px;
+
+  height: auto;
+  width: auto;
+}
+.cardContainer .providerHeader .providerPhoto {
+  position: absolute;
+  top: 33px;
+  right: -45px;
+
+  width: 91px;
+  height: 91px;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #eee;
+
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+
+  box-shadow: 0px 4px 9px rgba(193, 186, 186, 0.25)
+}
+.cardContainerMobile .providerHeader .providerPhoto {
+  top: 25px;
+  left: 115px;
+
+  width: 70px;
+  height: 70px;
+}
+.cardContainer .Button {
+  max-width: 156px;
+  margin: 0 31px 0 5px;
+}
+.cardContainerMobile .Button {
+  margin: 0 0 21px;
+}
+.cardContainer .providerInfo {
+  display: flex;
+  flex-direction: column;
+  
+  margin-right: 44px;
+  padding: 37px 0 33px;
+
+  min-width: 135px;
+  height: 100%;
+}
+.cardContainerMobile .providerInfo {
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+
+  padding: 51px 20px 21px;
+  margin: 0;
+  width: -webkit-fill-available;
+  width: 100%;
+}
+.providerInfo .providerName {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #454452;
+  margin-bottom: 5px;
+}
+.providerInfo .providerType {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #858297;
+}
+.providerInfo>div:first-child {
+  margin-bottom: 13px;
+}
+.cardContainerMobile .providerInfo>div:first-child {
+  margin-bottom: 0;
+}
+.providerInfo .details {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 16px;
+  color: #31e495;
+  text-decoration: underline;
+  border-radius: 0;
+}
+.cardContainerMobile .providerInfo .details p {
+  margin-top: 0;
+}
+.cardContainer .props {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  padding-top: 33px;
+}
+.cardContainerMobile .props {
+  padding: 0 20px 12px;
+  width: 100%;
+}
+.cardContainer .props div:first-child {
+  margin-bottom: 15px;
+}
+.cardContainer .props div:nth-child(2) {
+  margin-right: -50px;
+}
+.cardContainerMobile .props div:nth-child(2) {
+  margin-right: 0;
+}
+.cardContainer .props label {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #858297;
+  margin-bottom: 5px;
+}
+.cardContainer .props div>div {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #454452;
+}
+
+
+.modalFooter {
+  font-size: 14px;
+  color: #5c5b66;
+  margin: 17px 0 0;
+}
+.modalButton {
+  max-width: 136px;
+  margin: 10px auto 17px;
+}
