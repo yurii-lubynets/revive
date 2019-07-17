@@ -1,0 +1,186 @@
+.loginPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 0;
+  min-height: calc(100vh - 80px);
+}
+.resend {
+  background: #eafff6;
+}
+.loginPageMobile {
+  padding: 30px 0;
+}
+.LoginScreenTitle {
+  color: #31e495;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 31px;
+  margin: 30px 0;
+}
+.LoginScreenTitleMobile {
+  font-size: 24px;
+  line-height: 29px;
+}
+.LoginScreenContainer > p {
+  font-size: 14px;
+  color: #454452;
+  margin: 20px 0;
+}
+.button {
+  margin-top: 12px;
+}
+/*Welcome screen*/
+.loginPageContent {
+  height: 531px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title {
+  color: #b1afba;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: .04em;
+  margin: 0;
+}
+.loginPage .footer {
+  color: #5c5b66;
+  font-size: 14px;
+  margin: 0;
+}
+.loginPage .modalFooter {
+  margin: 45px 0 25px;
+  font-weight: 500;
+  line-height: 22px;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #454452;
+}
+.modalButton {
+  margin-bottom: 0;
+}
+/*Login Form*/
+.loginForm {
+  width: 240px;
+  margin-top: 51px;
+  flex: 1;
+}
+.loginFormMobile {
+  margin-top: 33px;
+}
+.formItems>div {
+  margin-bottom: 36px;
+}
+.formItems>div:last-child {
+  margin-bottom: 2px;
+}
+
+.submitButton {
+  max-width: 136px;
+  margin: 24px auto 0;
+}
+
+.loginFooter {
+  margin: 18px auto 0;
+  color: #5c5b66;
+  font-size: 14px;
+}
+.checkBoxContainer {
+  margin-top: 14px;
+  font-size: 14px;
+  text-align: start;
+  color: #5c5b66;
+}
+.checkBoxLabel {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: .56px;
+  color: #5c5b66;
+  margin-top: 16px;
+  margin-left: -19px;
+  text-transform: capitalize;
+}
+.errorContainer {
+  position: relative;
+}
+.loginError {
+  color: #f44336;
+  font-size: 0.75rem;
+  margin-top: 8px;
+  line-height: 1em;
+  position: absolute;
+  top: -15px;
+  text-align: left;
+}
+.LoginScreenContainer {
+  width: 280px;
+  flex: 1;
+  margin-top: 30px;
+}
+
+
+
+.verificationContainer {
+  margin-top: 57px;
+  flex: 1 1;
+}
+.verificationContainerMobile {
+  margin-top: 30px;
+}
+.verificationContainer h1 {
+  margin: 0 0 37px;
+  color: #31e495;
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 1.14px;
+  text-transform: capitalize;
+}
+.verificationContainerMobile h1 {
+  margin: 0 0 24px;
+  font-size: 32px;
+  letter-spacing: .96px;
+}
+.verificationContainer h3 {
+  margin: 0 auto 48px;
+  color: #5c5b66;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32.6px;
+  max-width: 570px;
+}
+.verificationContainerMobile h3 {
+  margin: 0 auto 62px;
+  font-size: 24px;
+  line-height: 31.5px;
+  max-width: 259px;
+}
+.verificationContainer>svg {
+  margin-left: -40px;
+}
+.verificationContainer p {
+  margin: 0 auto;
+  color: #5c5b66;
+  font-size: 14px;
+  line-height: 20.5px;
+  max-width: 209px;
+}
+p.verificationDescription {
+  height: 53px;
+  margin: 40px auto 42px;
+  color: #454452;
+  font-size: 20px;
+  max-width: fit-content;
+  font-weight: 400;
+  line-height: 26px;
+}
+.verificationContainerMobile p.verificationDescription {
+  margin: 42px auto 63px;
+  color: #454452;
+  font-size: 18px;
+  line-height: 23.6px;
+  max-width: 220px;
+}

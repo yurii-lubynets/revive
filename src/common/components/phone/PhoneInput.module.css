@@ -1,0 +1,103 @@
+.phoneInput {
+  margin: 0;
+  border: 0;
+  display: inline-flex;
+  padding: 0;
+  position: relative;
+  min-width: 0;
+  flex-direction: column;
+  vertical-align: top;
+  width: 100%;
+  border-bottom: 1px solid #b7b3ce;
+}
+.phoneError .phoneInput {
+  border-bottom: 1px solid #f44336;
+}
+.phoneInput input {
+  padding: 14px 0 10px;
+  color: #454452;
+  font-weight: 500;
+  line-height: 19px;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  border: 0;
+}
+.phoneInput input::placeholder {
+  color: #858297;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.1px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.select,
+.select>div {
+  position: initial;
+}
+.select button {
+  border: none;
+}
+.select button+div {
+  width: 100%;
+  left: 0;
+  top: 85px;
+}
+.select button+div ul {
+  padding: 0;
+}
+.select button+div li button {
+  height: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  color: #454452;
+  border-bottom: 1px solid #B7B3CE;
+}
+.select button+div li button:hover {
+  background-color: #fff;
+  color: #31E495;
+}
+.select button+div li button[aria-selected=true] {
+  background-color: #fff;
+  color: #31E495;
+}
+.phoneInput input:focus {
+  border: 0;
+}
+.phoneContainer {
+  position: relative;
+}
+.phoneContainer .error {
+  margin-bottom: 0;
+  color: #f44336;
+  position: absolute;
+  font-size: 0.75rem;
+  top: 50px;
+  margin-top: 0;
+  letter-spacing: initial;
+}
+
+/*custom scroll*/
+.select button+div ul::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+.select button+div ul::-webkit-scrollbar-track {
+  background: transparent;
+}
+.select button+div ul::-webkit-scrollbar>* {
+  background:transparent;
+}
+.select button+div ul::-webkit-scrollbar-thumb {
+  background: #E7E5F1; 
+  border-radius: 80px;
+}
+.select button+div ul::-webkit-scrollbar-thumb:hover {
+  background: #E1DFEF;
+}
+.select button+div ul::-webkit-scrollbar-thumb:active {
+  background: #D1CFE5;
+}

@@ -1,0 +1,227 @@
+.baseHeaderMobileMenu {
+  position: fixed;
+  z-index: 10;
+  top: 100%;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: #fff;
+
+  margin: 70px 0 0;
+  padding: 55px 35px 70px;
+
+  list-style: none;
+  transition: all .3s ease 0s;
+
+  overflow-y: scroll;
+}
+.visibleMenu {
+  top: 0;
+}
+.baseHeaderMobileMenu > li {
+  margin-bottom: 40px;
+}
+.baseHeaderMobileMenu > li > a,
+.baseHeaderMobileMenu > li > div {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: initial;
+  font-weight: normal;
+  line-height: 26px;
+  color: #454452;
+}
+.baseHeaderMobileMenu > li > a:hover,
+.baseHeaderMobileMenu > li > div:hover,
+.baseHeaderMobileMenu > li > a:focus {
+  color: #31e495;
+}
+.baseHeaderMobileMenu>.close {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  padding: 5px;
+  margin: 0;
+}
+.baseHeaderMobileMenu>.close svg path {
+  fill: rgb(183, 179, 206);
+}
+.baseHeaderMobileMenu .separator {
+  background-color: #e4e4e4;
+  height: 1px;
+  width: 100%;
+  margin: 0 0 40px;
+}
+
+.ButtonLink,
+.Button {
+  float: right;
+  margin-left: 35px;
+  line-height: 17px;
+  letter-spacing: .56px;
+  font-size: 14px;
+  font-weight: 500;
+}
+a.ButtonLink {
+  color: #31e495;
+  text-decoration: none;
+}
+.Button {
+  height: 100%;
+  border-radius: 0;
+  border-bottom: 0;
+}
+.messages:hover,
+.Button:hover,
+.logoContainer:hover {
+  box-shadow: inset 0px -3px 0px 0px #31e495;
+}
+
+.Button:focus {
+  color: #fff;
+}
+.mailIcon {
+  margin: 0 20px 0 0;
+  position: relative;
+}
+.mailIcon span {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #31E495;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #38364B;
+}
+.userMenu {
+  display: flex;
+  flex-direction: column;
+
+  top: 45px;
+  right: -10px;
+  z-index: 2;
+  
+  width: 275px;
+  height: 240px;
+}
+.userMenu .separator {
+  background-color: #e4e4e4;
+  height: 1px;
+  width: 100%;
+  margin: 0 0 37px;
+}
+.userMenu a {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 17px;
+  color: #454452;
+  text-decoration: none;
+  margin-bottom: 31px;
+}
+.userMenu a:hover {
+  color: #31e495;
+}
+.count {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  background-color: #31e495;
+  
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 15px;
+  
+  font-weight: 500;
+  font-size: 9px;
+  line-height: normal;
+  color: #000;
+}
+.userMenu a:last-child {
+  margin-bottom: 0;
+}
+.userMenu a:hover,
+.userMenu a:focus {
+  color: #31e495;
+}
+.mailLink {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.logoContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition: all .3s;
+  margin-left: 16px;
+}
+
+.messages {
+  margin-left: 35px;
+  margin-right: 20px;
+  
+  position: relative;
+  text-decoration: none;
+  
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.withCount {
+  padding-right: 20px;
+  margin-right: 0;
+}
+.messages:focus {
+  color: #fff;
+}
+.counterContainer {
+  position: relative;
+}
+.counterContainer>div {
+  position: absolute;
+  right: -20px;
+  top: 0;
+  
+  width: 15px;
+  height: 15px;
+  
+  background-color: #31e495;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 15px;
+  
+  font-weight: 500;
+  font-size: 9px;
+  line-height: normal;
+  color: #000;
+}
+.nameContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.nameContainer>span {
+  flex: 1;
+  margin-left: 15px;
+}

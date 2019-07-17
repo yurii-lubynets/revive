@@ -1,0 +1,85 @@
+.button {
+  height: 46px;
+  width: 100%;
+
+  padding: 0;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: .04em;
+  
+  border: 1px solid transparent;
+  border-radius: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  transition: .3s;
+}
+.button:hover {
+  cursor: pointer;
+}
+.button:focus {
+  color: #fff;
+}
+.button>svg {
+  margin: 0 10px 0 0;
+}
+
+.primary {
+  color: #ffffff;
+  background-color: #31e495;
+}
+.primary:hover {
+  background-color: #2eda8f;
+}
+.primary:active {
+  background-color: #35c988;
+}
+.primary:disabled {
+  color: #b4c6dc;
+  background-color: #dfe7f2;
+}
+
+.secondary {
+  border: 1px solid #b7b3ce;
+  color: #454452;
+}
+.secondary:hover {
+  background-color: #f3fffa;
+}
+.secondary:focus {
+  color: #454452;
+}
+.secondary:active {
+  background: #eafff6;
+}
+.secondary:disabled {
+  color: #b4c6dc;
+  background: #dfe7f2;
+  border: 1px solid transparent;
+}
+
+.link {
+  width: fit-content;
+  background: transparent;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.confirmation {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #35C988;
+  border: 3px solid #31E495;
+  border-radius: 90px;
+}
+.confirmation>svg {
+  margin: 0;
+}

@@ -1,0 +1,10 @@
+import React from 'react'
+
+const Messages = () => (
+  <svg width="23" height="23" viewBox="0 0 23 23" fill="none">
+    <path fillRule="evenodd" clipRule="evenodd" d="M7 6H16C17.1046 6 18 6.89543 18 8V15C18 16.1046 17.1046 17 16 17H6.99972C5.89515 17 5 16.1046 5 15V8C5 6.89543 5.89543 6 7 6ZM7 11.6181V15H16V11.6185L11.5312 13.2673L7 11.6181ZM7 9.38199L11.5312 11.0312L16 9.38247V8H7V9.38199Z" fill="#B1AFBA"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M11.5 23C17.8513 23 23 17.8513 23 11.5C23 5.14873 17.8513 0 11.5 0C5.14873 0 0 5.14873 0 11.5C0 17.8513 5.14873 23 11.5 23ZM11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.2533 16.7467 2 11.5 2C6.2533 2 2 6.2533 2 11.5C2 16.7467 6.2533 21 11.5 21Z" fill="#B1AFBA"/>
+  </svg>
+)
+
+export default Messages

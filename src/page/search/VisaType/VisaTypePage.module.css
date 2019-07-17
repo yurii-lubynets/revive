@@ -1,0 +1,75 @@
+.contentContainer {
+  width: 100%;
+  flex: 1 1;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.visaContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px auto 35px;
+  width: 100%;
+  max-width: 798px;
+}
+.contentContainerMobile .header {
+  margin: 23px 0 33px;
+  text-align: center;
+}
+.header {
+  margin: 40px 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  width: 100%;
+
+  color: #454452;
+}
+.sliderItem {
+  text-decoration: none;
+}
+.contentContainerMobile .sliderItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.backgroundOuter {
+  width: 240px;
+  overflow: hidden;
+  height: 214px;
+  border-radius: 4px;
+}
+.contentContainerMobile .backgroundOuter {
+  width: 300px;
+  height: 190px;
+}
+.sliderItem .background {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #eee;
+  transition: all 0.5s ease;
+}
+.contentContainerMobile .sliderItem .background {
+  background-position: top;
+}
+.sliderItem:hover .background {
+  transform: scale(1.2);
+}
+.contentContainerMobile .sliderItem:hover .background {
+  transform: scale(1);
+}
+.sliderItem>p:last-child {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #454452;
+  margin: 25px 0 0;
+}

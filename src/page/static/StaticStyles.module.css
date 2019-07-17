@@ -1,0 +1,220 @@
+.staticContainer {
+  padding: 0 0 33px;
+  max-width: 682px;
+  flex: 1;
+}
+h1.staticTitle {
+  margin: 36px 0 24px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #454452;
+}
+h3.staticSubTitle {
+  margin: 35px 0 19px;
+  color: #31e495;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .64px;
+  text-align: left;
+}
+.staticParagraph,
+.staticParagraphBold {
+  font-size: 14px;
+  line-height: 26.2px;
+  letter-spacing: .56px;
+  color: #5c5b66;
+  margin: 0;
+}
+.staticParagraphBold {
+  font-weight: 500;
+}
+
+.staticContainerMobile {
+  max-width: 300px;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.list li {
+  counter-increment: step-counter;
+  position: relative;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+.list li::before {
+  content: counter(step-counter);
+  font-size: 14px;
+  color: #31e495;
+
+  border: 1px solid #31e495;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 2px;
+  left: 0px;
+
+  width: 25px;
+  height: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list li::after {
+  border-left: 1px dashed#31e495;
+  position: absolute;
+  top: 30px;
+  bottom: 0;
+  left: 13px;
+  content: ' ';
+}
+.list li:last-child::after {
+  display: none;
+}
+.list h5 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: .64px;
+}
+
+.fund {
+  margin: 50px 0;
+}
+.fundMobile {
+  margin: 28px 0 48px;
+}
+.contactsContainer {
+  width: 100%;
+  max-width: 682px;
+  padding: 0;
+  margin: 36px 0 41px;
+  flex: 1;
+}
+.contactsContainerMobile {
+  padding: 0 15px;
+}
+.contactsContainer form {
+  max-width: 540px;
+}
+.contactsContainer h1 {
+  margin: 0 0 22px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #454452;
+}
+.contactsContainer .subTitle {
+  margin: 0 0 35px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: .04em;
+  color: #454452;
+}
+.contactsContainer .form {
+  margin-left: 72px;
+}
+.contactsContainerMobile .form {
+  margin: 0 auto;
+  max-width: 240px;
+}
+.contactsContainer .form > div {
+  margin-bottom: 36px;
+}
+.contactsContainer .Button {
+  max-width: 136px;
+  margin: 0;
+  float: right;
+}
+.contactsContainerMobile .Button {
+  max-width: 136px;
+  margin: 0 auto;
+}
+.error {
+  margin: 0 0 14px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: .56px;
+  color: #f44336;
+}
+.confirmationContainer {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.success {
+  flex: 1;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: .04em;
+  color: #31e495;
+}
+
+.privacy .date {
+  margin: 0 0 13px;
+  font-weight: 500;
+  line-height: 26px;
+  font-size: 14px;
+
+  color: #454452;
+}
+.privacy .listing {
+  display: flex;
+}
+.privacy .listing span {
+  font-weight: normal;
+  line-height: 26px;
+  font-size: 14px;
+  text-transform: lowercase;
+
+  color: #454452;
+  margin-right: 13px;
+}
+.privacy .staticParagraph {
+  font-weight: normal;
+  line-height: 26px;
+  font-size: 14px;
+}
+.privacy .sectionsTitle {
+  margin: 48px 0 15px;
+  font-weight: 500;
+  line-height: 26px;
+  font-size: 14px;
+}
+.privacy .sectionsContainer {
+  font-weight: 500;
+  font-size: 14px;
+}
+.privacy .sectionsContainer div {
+  font-weight: normal;
+}
+.privacy .sectionsContainer a {
+  display: block;
+  line-height: 26px;
+  margin-bottom: 12px;
+  text-transform: initial;
+}
+.privacy .sectionsContainer a:last-child {
+  margin-bottom: 0;
+}
+.privacy h3.staticSubTitle {
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 32px;
+  margin-bottom: 3px;
+  text-align: left;
+}
+.privacy.staticContainerMobile h3.staticSubTitle + p:first-child {
+  margin-bottom: 20px;
+}
+.privacy.staticContainerMobile h3.staticSubTitle {
+  line-height: 23px;
+  margin-bottom: 8px;
+}
