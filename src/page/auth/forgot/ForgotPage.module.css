@@ -1,0 +1,97 @@
+.forgotPage {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+
+  flex-direction: column;
+  padding: 40px 0;
+  min-height: calc(100vh - 80px);
+}
+
+.forgot {
+  background: #eafff6;
+}
+.forgotPageMobile {
+  padding-top: 30px;
+}
+
+.forgotPage > p {
+  color: #b1afba;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: .56px;
+  margin: 0;
+}
+
+.forgotForm {
+  margin-top: 51px;
+  width: 240px;
+}
+.submitButton {
+  max-width: 176px;
+  margin: 36px auto 0;
+}
+.forgotError {
+  color: #f44336;
+  font-size: 0.75rem;
+  margin: 8px auto;
+  line-height: 1em;
+  text-align: left;
+}
+
+.forgotContainer {
+  margin-top: 57px;
+}
+.forgotContainerMobile {
+  margin-top: 38px;
+}
+.forgotContainer h1 {
+  margin: 0 0 27px;
+  color: #31e495;
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 1.14px;
+  text-transform: capitalize;
+}
+.forgotContainerMobile h1 {
+  margin: 0 0 24px;
+  font-size: 32px;
+  letter-spacing: .96px;
+}
+.forgotContainer h3 {
+  margin: 0 0 46px;
+  color: #5c5b66;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32.6px;
+}
+.forgotContainerMobile h3 {
+  margin: 0 auto 26px;
+  font-size: 24px;
+  line-height: 31.5px;
+  max-width: 259px;
+}
+.forgotContainer>svg {
+  margin-left: -40px;
+}
+.forgotContainer p {
+  margin: 0 auto;
+  color: #5c5b66;
+  font-size: 14px;
+  line-height: 20.5px;
+  max-width: 260px;
+}
+.forgotContainer .Button {
+  margin: 44px auto 90px;
+  max-width: 240px;
+}
+.forgotContainerMobile .Button {
+  margin: 42px auto 59px;
+}
+.forgotContainer .Button p {
+  color: #fff;
+}

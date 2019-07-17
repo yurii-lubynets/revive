@@ -1,0 +1,132 @@
+.footer {
+  height: 320px;
+  border-top: 1px solid #e4e4e4;
+}
+.footerMobile {
+  height: auto;
+  border-top: 0;
+}
+.footerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 47px;
+}
+.footerContainerMobile {
+  border-top: 1px solid #e4e4e4;
+  padding: 37px 30px 40px;
+  align-items: flex-start;
+}
+.leftSide {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex: 1;
+}
+.leftSide a:first-child {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 31px;
+}
+.leftSide a:last-child {
+  margin-bottom: 35px;
+}
+.leftSide a {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5C5B66;
+  margin-bottom: 23px;
+  text-decoration: none;
+}
+.leftSide a:hover,
+.leftSide a:focus {
+  color: #31e495;
+}
+.leftSideMobile {
+  width: 100%;
+}
+.footerContainer p {
+  color: #5c5b66;
+  font-size: 14px;
+}
+.links {
+  font-size: 14px;
+  margin-bottom: 9px;
+}
+.links>a {
+  margin-right: 9px;
+}
+.links>a:last-child {
+  margin-right: 0;
+}
+.rightSide {
+  display: flex;
+  flex-direction: column;
+}
+.rightSide>p {
+  height: 21px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 0 26px;
+}
+.rightSide>.link {
+  margin-right: 12px;
+}
+.rightSideMobile {
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rightSideMobile > p {
+  width: 100%;
+  margin: 0 0 26px;
+}
+.bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  border-top: 1px solid #e4e4e4;
+  padding: 27px 0 46px;
+}
+.bottom p {
+  margin-top: 0;
+}
+.footerContainerMobile .bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 27px 0 0;
+}
+.footerContainerMobile .bottom .links {
+  margin-bottom: 27px;
+}
+.link:last-child {
+  margin-right: 0;
+}
+
+.leftSideMobile {
+  flex: none;
+}
+.leftSideMobile .links {
+  margin: 0;
+}
+.footer .address {
+  font-weight: normal;
+}
+.address svg {
+  margin: 0 5px 0 1px;
+}
+.leftSideMobile p {
+  margin: 15px 0 0px;
+}
+.linkContainer {
+  margin-bottom: 44px;
+}
+.linkContainer a {
+  margin-right: 25px;
+}
+.linkContainer a:last-child {
+  margin-right: 0;
+}

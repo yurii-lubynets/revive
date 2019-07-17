@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url('https://fonts.googleapis.com/css?family=Lato:700');
+
+html {
+  height: 100%;
+  overflow: overlay;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  max-width: 100%;
+}
+/* @media only screen and (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+} */
+#root {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  font-family: 'Roboto', sans-serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+a {
+  font-size: 14px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  overflow: hidden;
+  color: #31e495;
+}
+a:focus {
+  color: #35c988;
+}
+a[tabIndex]:focus {
+  color: #35c988;
+  outline: none;
+}
+a:hover {
+  cursor: pointer;
+}
+
+a:disabled {
+  color: #b4c6dc;
+}
+button {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: none;
+  -webkit-text-fill-color: inherit;
+  -webkit-box-shadow: 0 0 0px 1000px #FFFFFF inset;
+  box-shadow: 0 0 0px 1000px #FFFFFF inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+a[disabled] {
+  pointer-events: none;
+  color: #b4c6dc;
+}
+a[disabled] svg path {
+  fill: #b4c6dc;
+}
+
+/*custom scroll*/
+body::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+body::-webkit-scrollbar>* {
+  background:transparent;
+}
+body::-webkit-scrollbar-thumb {
+  background: #E7E5F1; 
+  border-radius: 80px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #E1DFEF;
+}
+body::-webkit-scrollbar-thumb:active {
+  background: #D1CFE5;
+}

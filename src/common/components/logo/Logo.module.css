@@ -1,0 +1,28 @@
+.userLogoContainer {
+  height: 35px;
+  width: 35px;
+
+  border: 2px solid #31e495;
+  border-radius: 50%;
+
+  background-color: #a0ffd6;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.userLogoContainerMobile {
+  height: 35px;
+  width: 35px; 
+}
+.userLogoContainer > span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: .26px;
+  color: #38364b;
+  text-transform: uppercase;
+}
+.userLogoContainer:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.dropdownContainer {
+  position: relative;
+}
+.value {
+  white-space: nowrap;
+}
+.value:hover {
+  cursor: pointer;
+}
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.menuContainer {
+  position: relative;
+  padding: 40px 40px 35px; 
+  height: 100%;
+  border-top: 3px solid #31e495;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(103, 105, 118, 0.19);
+  border-radius: 2px;
+}
+.menuContainer > svg {
+  position: absolute;
+  top: -8px;
+  left: 0;
+}
