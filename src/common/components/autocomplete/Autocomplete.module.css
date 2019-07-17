@@ -1,0 +1,29 @@
+.autoComplete {
+  width: 100%;
+}
+.autoComplete div[type="text"] > div {
+  padding: 14px 0 10px;
+}
+.autoComplete>div:nth-child(3)>div>div:last-child {
+  border-bottom: 0;
+}
+/*custom scroll*/
+.autoComplete>div:nth-child(3)::-webkit-scrollbar {
+  width: 8px;
+}
+.autoComplete>div:nth-child(3)::-webkit-scrollbar-track {
+  background: transparent;
+}
+.autoComplete>div:nth-child(3)::-webkit-scrollbar>* {
+  background:transparent;
+}
+.autoComplete>div:nth-child(3)::-webkit-scrollbar-thumb {
+  background: #E7E5F1; 
+  border-radius: 80px;
+}
+.autoComplete>div:nth-child(3)::-webkit-scrollbar-thumb:hover {
+  background: #E1DFEF;
+}
+.autoComplete>div:nth-child(3)::-webkit-scrollbar-thumb:active {
+  background: #D1CFE5;
+}
