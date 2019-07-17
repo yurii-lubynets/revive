@@ -1,0 +1,5 @@
+node_modules/
+build
+
+serviceWorker.js
+src/common/constant/PhoneCodesConst.js
