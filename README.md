@@ -11,8 +11,6 @@ The Revive app has a lot of pages in the `page` folder. They are nested in folde
 The Reducers in the folder `reducer` specify how the application's state changes in response to actions sent to the store.<br>
 All Sagas to deal with asynchronous actions are located in the `saga` folder.<br>
 The app uses two store (one for development goal with logger and one more for production) in the `store` folder.<br>
-<br>
-The `mail` folder contains all emails for the Revive project.
 
 ## Available Scripts
 
